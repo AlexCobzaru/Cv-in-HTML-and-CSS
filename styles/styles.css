@@ -1,0 +1,248 @@
+
+
+body{
+    background-color: #E5E5E5E5;
+    color: #595959;;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul, ol{
+    padding-left: 18px;
+    margin: 8px auto;
+}
+
+p{
+    margin-top: 11px;
+    margin-bottom: 8px;
+}
+
+/* APP section */
+
+.app_section{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 1031px;
+        margin: 40px auto;
+    }
+
+/* Main section*/
+
+.main_section{
+        background-color: whitesmoke;
+        padding-left: 46px;
+        padding-right: 150px;
+        border-radius: 0px 15px 15px 0px;
+    }
+
+/* Main Text section*/
+
+.main_section h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.main_section h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.main_section h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px; 
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.main_section h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+#names{
+    color: #FB6D3A;
+    margin-top: 10px;
+}
+
+#education_date{
+    font-size: 12px;
+    color: #A8A8A8;
+}
+
+/* About me section */
+
+.about_me_section{
+        margin-top: 100px;
+        margin-bottom: 50px;
+        width: 400px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+.about_me_profession{
+        box-sizing: border-box;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+/* Projects section */
+
+.projects_section{
+    color: #595959;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 485px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.projects_section li{
+    font-style: normal;
+    font-weight: 700;
+    color: #000000;
+    
+}
+
+.projects_section li a{
+    margin-left: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.projects_section li span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+/* Work experience section */
+
+.work_experience_section{
+    color: #595959;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 525px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* Education section */
+
+.education_section{
+    color: #595959;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 50px;
+}
+
+/* Sidebar section*/
+
+.sidebar_section{
+    background-color: #1E2939;
+    color: white;
+    top: 40px;
+    left: 40px;
+    width: 400px;
+    border-radius:15px;
+}
+
+#sidebar_text_section{
+    margin: 40px 40px auto 40px;
+}
+
+/* Sidebar image section*/
+
+.sidebar_section img{
+    margin: 20px 25px 20px 25px;
+    border-radius: 5%;
+    width: 250px;
+    height: auto;
+}
+
+/* Sidebar Text section*/
+
+.sidebar_section h1{
+    color: white;
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.sidebar_section h2{
+    font-size: 22px;
+    color: white;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 27px;
+}
+
+.sidebar_section h3{
+    font-size: 16px;
+    color:white;
+}
+
+.sidebar_section h4{
+    font-size: 14px;
+    color:white;
+}
+
+/* Contacts image section*/
+
+.sidebar_section a{
+    opacity: 50%;
+    color:  white;
+}
+
+.contact_section_type{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+    margin-right: 5px;
+}
+
+/* Tech and Soft skill section */
+
+.sidebar_section li{
+    color: #FB6D3A;
+}
+
+.sidebar_section li span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
